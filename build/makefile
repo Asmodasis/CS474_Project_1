@@ -40,6 +40,9 @@ $(OUTPUT): $(OBJXXFILES)
 main.o: $(addprefix $(SRCXXDIR), main.cpp) 
 	$(CC) $(CXXFLAGS) -c $(addprefix $(SRCXXDIR), main.cpp) -o main.o 
 
+Threshold.o: $(addprefix $(SRCXXDIR), Threshold.cpp) 
+	$(CC) $(CXXFLAGS) -c $(addprefix $(SRCXXDIR), Threshold.cpp) -o Threshold.o 
+
 #ImageSampling.o: $(addprefix $(SRCXXDIR), ImageSampling.cpp) 
 #	$(CC) $(CXXFLAGS) -c $(addprefix $(SRCXXDIR), ImageSampling.cpp) -o ImageSampling.o WriteImage.o ReadImage.o ReadImageHeader.o image.o
 #
