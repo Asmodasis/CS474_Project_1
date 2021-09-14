@@ -21,6 +21,6 @@ int main(int argc, char *argv[]){
 
     ImageType img(N,M,Q);
 
-    imageSampling("../images/lenna.pgm", img, 2);
+    imageSampling("../images/peppers.pgm", img, 8);
 
 }

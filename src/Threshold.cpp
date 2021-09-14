@@ -2,11 +2,16 @@
 #include <fstream>
 #include <cstdlib>
 
-#include "../include/image.h"
-
+/*
 int readImageHeader(char[], int&, int&, int&, bool&);
 int readImage(char[], ImageType&);
 int writeImage(char[], ImageType&);
+*/
+#include "../include/image.h"
+#include "../src/image.cpp"
+#include "../include/WriteImage.h"
+#include "../include/ReadImage.h"
+#include "../include/ReadImageHeader.h"
 
 int main(int argc, char *argv[])
 {
@@ -22,7 +27,9 @@ int main(int argc, char *argv[])
  // allocate memory for the image array
 
  ImageType image(N, M, Q);
-
+    std::cout << "M == " << M<< std::endl;
+    std::cout << "N == " << N<< std::endl;
+    std::cout << "Q == " << Q<< std::endl;
  // read image
  readImage(argv[1], image);
 
