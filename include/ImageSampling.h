@@ -25,8 +25,8 @@ int imageSampling(char fname[], ImageType& image, int subSample){
     M_sub = M / subSample;
     N_sub = N / subSample;
     Q_sub = Q / subSample;
-
-    ImageType replaceImage(N_sub, M_sub, Q_sub);            // allocate memory for the new sub sampled image
+    //TODO: Q_sub was swapped with Q, {error} the gray level should not be sampled, required testing
+    ImageType replaceImage(N_sub, M_sub, Q);            // allocate memory for the new sub sampled image
 
                                                             //loop through the rows and columns by the factor of the subsample
     for(i=0; i<N; i=i+subSample){                           // rows
