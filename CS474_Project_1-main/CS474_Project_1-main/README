@@ -1,0 +1,64 @@
+ # Project 1 For Cs474 Image Processing
+> Image processing involving techniques of sub-sampling, image quantization, histogram equalization and histogram specification
+
+[![WSL Version][wsl-image]][https://docs.microsoft.com/en-us/windows/wsl/install]
+
+
+This software is designed as is for an in class project. 
+
+## Installation
+
+> Install Linux or the windows subsystem 
+
+
+## Usage example
+> Navigate to build folder
+```sh
+> make main
+> ./main
+```
+## Development setup
+
+Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
+
+```sh
+sudo apt-add-repository ppa:ubuntu-desktop/ubuntu-make
+sudo apt-get update
+sudo apt-get install ubuntu-make
+```
+
+
+## Release History
+
+* 1.0
+    * CHANGE: Final Release
+* 0.4.0
+    * CHANGE: Part 4 implemented
+* 0.3.0
+    * CHANGE: Part 3 implemented
+* 0.2.0
+    * CHANGE: Part 2 implemented
+* 0.1.0
+    * CHANGE: Part 1 implemented
+
+
+## Meta
+
+Shawn Ray - Shawnray@nevada.unr.edu 
+Yi Liang  - jy.68171@nevada.unr.edu
+ 
+
+Distributed under the MIT license. See ``LICENSE`` for more information.
+
+[Github](https://github.com/Asmodasis)
+
+## Contributing
+
+1. Fork it (<https://github.com/Asmodasis/CS474_Project_1/fork>)
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Commit your changes (`git commit -am 'Add some fooBar'`)
+4. Push to the branch (`git push origin feature/fooBar`)
+5. Create a new Pull Request
+
+<!-- Markdown link & img dfn's -->
+[wsl-image]: https://www.techrepublic.com/a/hub/i/2016/01/27/e0e94fb7-d058-4d62-8027-c497e7c0e069/ubuntuhero.jpg
